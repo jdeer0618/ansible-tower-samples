@@ -1,7 +1,7 @@
 
 - name: Hello World Sample
   hosts: all
-  gather_tasks: False
+  gather_facts: False
   tasks:
     - name: ping'em
       ping:
